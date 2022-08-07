@@ -4,7 +4,7 @@
   "description": "Pruebas automatizadas del sistema de tienda de ropa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open"
   },
   "keywords": [
     "qa",
@@ -15,7 +15,11 @@
   ],
   "author": "Harold Terreros",
   "license": "ISC",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hterreros/tiendaDeRopaCypress"
+  },
+  "devDependencies": {
     "cypress": "^10.4.0"
   }
 }
